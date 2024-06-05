@@ -1,0 +1,10 @@
+#Criado por Gustavo Rodrigues em 05/06/2024.
+
+'''Algoritmo que lê um número inteiro e informa se é PAR ou IMPAR'''
+
+num = int(input('Digite um número: '))
+result = num % 2
+if result == 0:
+    print('O número {} é PAR'.format(num))
+else:
+    print('O número {} é IMPAR'.format(num))
